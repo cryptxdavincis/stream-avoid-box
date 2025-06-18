@@ -1,0 +1,16 @@
+{
+  "name": "video-streaming-box",
+  "version": "1.0.0",
+  "description": "Streaming animasi kotak menghindar rintangan via HTTP",
+  "main": "stream-avoid-box.js",
+  "type": "module",
+  "scripts": {
+    "start": "node stream-avoid-box.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.19.2"
+  },
+  "author": "CryptzX Dev",
+  "license": "MIT"
+}
