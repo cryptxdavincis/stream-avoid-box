@@ -15,7 +15,7 @@ let frameCount = 0;
 let obstacles = [];
 
 // Fungsi gambar frame dengan optional teks & posisi X teks
-function drawFrame(teks: string | null = null, teksX: number = 0) {
+function drawFrame(teks = null, teksX = 0) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
